@@ -33,8 +33,6 @@ cargada = false;
    this.http.get('https://curso-angular-2021-ebe5a-default-rtdb.firebaseio.com/equipo.json')
    .subscribe((resp: any) => {
     this.equipo = resp;
-    console.log(resp);
-
    });
  }
 
